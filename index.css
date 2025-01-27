@@ -5,12 +5,11 @@
     
 }
 .home-wrapper {
-    display: flex; /* Enables flexbox */
-
+    display: flex;
     width: 100%;
     align-items: center;
     justify-content: center;
-    background-color: #DBDBDB;
+    /* background-color: #DBDBDB; */
 
 }
 .image {

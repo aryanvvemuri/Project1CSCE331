@@ -47,3 +47,34 @@ img {
     /* height: 100vh; */
     /* background-color: #e94343; */
 }
+
+.home-body {
+    height: 100vh;
+    /* width: 100vw; */
+    /* background-color: #DBDBDB; */
+    background-image: url('kisspng-nasa-insignia-logo-image-outer-space-download-nasa-vector-logo-eps-ai-free-seek-1713917938268.webp');
+    /* display: flex;
+    flex-direction: column; */
+    background-size: cover;
+    background-position: center;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    /* display: flex; */
+    flex-direction: column;
+    
+}
+button{
+    border-color: black;
+    text-emphasis-color: black;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    /* align-items: center; */
+    /* justify-content: center; */
+}

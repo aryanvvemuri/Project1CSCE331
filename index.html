@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="navbar.css">
+        <link rel="stylesheet" id="styleSheet_nav" class="styleSheet_nav" href="navbar.css">
         <title>Navbar</title>
     </head>
     <body>
@@ -15,15 +15,17 @@
             <a href="Contact.html">Contact</a>
             <a href="AI.html">AI generated</a>
         </nav>
-        <link rel="stylesheet" href="index.css">
+        <link id="styleSheet" rel="stylesheet" href="index.css">
         <div class="home-wrapper">
             <body class ="home-body">
                 <div class="home-content">
-                    <button class="home-button">Change Color</button>
+                    <button class="home-button" onclick="toggleStyleSheet()">Change Color</button>
+                    <h1>Hello, My name is Aryan Vemuri. This website features my professional experience and projects. By clicking this button you can change the CSS of the page</h1>
                 </div>
             </body>
         </div>
 
-    
+        <script src="functions.js"></script>
+
     </body>
 </html>

@@ -4,12 +4,15 @@ body {
     padding: 0;
 }
 nav {
-    background-color: #354F52;
+    background-color: black;
     color: white;
     padding: 1em 0;
     text-align: center;
-    border-radius: 20px 20px 20px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
+
 nav a {
     color: white;
     text-decoration: none;

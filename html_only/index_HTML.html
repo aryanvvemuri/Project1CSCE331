@@ -3,27 +3,29 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" id="styleSheet_nav" class="styleSheet_nav" href="navbar.css">
         <title>Navbar</title>
     </head>
     <body>
 
         <nav>
-            <a href="index_HTML.html">Home</a>
-            <a href="About_HTML.html">About</a>
-            <a href="Experience_HTML.html">Experience</a>
-            <a href="Contact_HTML.html">Contact</a>
-            <a href="AI_HTML.html">AI generated</a>
+            <a href="index.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Experience.html">Experience</a>
+            <a href="Contact.html">Contact</a>
+            <a href="AI.html">AI generated</a>
         </nav>
+        <link id="styleSheet" rel="stylesheet" href="index.css">
         <div class="home-wrapper">
-            <div class="content">
-                <h1>Welcome to the Home Page</h1>
-                <p>Here you can find a little bit about me, my skills, qualifications, and experience.</p>
-            </div>
-            <div class="image">
-                <img src="imagePlaceholder.jpeg" alt="professional headshot">
-            </div>
+            <body class ="home-body">
+                <div class="home-content">
+                    <button class="home-button" onclick="toggleStyleSheet()">Change Color</button>
+                    <h1>Hello, My name is Aryan Vemuri. This website features my professional experience and projects. By clicking this button you can change the CSS of the page</h1>
+                </div>
+            </body>
         </div>
 
-    
+        <script src="functions.js"></script>
+
     </body>
 </html>
